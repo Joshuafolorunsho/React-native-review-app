@@ -1,22 +1,19 @@
 import React, { FunctionComponent } from "react";
 import { View, StyleSheet, Text } from "react-native";
+import globalStyles from "../styles/global";
 
 const Home: FunctionComponent = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Home Page</Text>
+      <Text style={globalStyles.titleText}>Home Page</Text>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
-    padding: 60,
-  },
-
-  text: {
-    fontFamily: "Roboto-Bold",
-    fontSize: 18,
+    padding: 50,
+    flex: 1,
   },
 });
 

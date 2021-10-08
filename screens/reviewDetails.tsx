@@ -11,7 +11,7 @@ const ReviewDetails: FunctionComponent = () => {
 
 const styles = StyleSheet.create({
   container: {
-    margin: 10,
+    padding: 10,
   },
 });
 
